@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software & Hardware Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Using a clean sans-serif for UI and monospace for technical accents -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Floating Tech Links (Hidden on Mobile) -->
+    <div class="tech-links fade-in">
+        <ul>
+            <li>
+                <a href="https://github.com/abhay03124" target="_blank" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/abhay03124" target="_blank" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://devpost.com/abhay03124" target="_blank" aria-label="Devpost">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:abhay03124@gmail.com" aria-label="Email">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">&lt;Dev /&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Tech Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with 3D Animation -->
+    <header id="home" class="hero section">
+        <div class="hero-content fade-in">
+            <p class="mono-accent">From cube turns to code lines;</p>
+            <h1>Software & Hardware <br><span class="highlight">Engineer</span></h1>
+            <p class="subtitle">B.Tech IT student specializing in backend architecture, embedded systems (ESP32), and unconventional human-interface devices.</p>
+            <a href="#projects" class="btn">View Architecture</a>
+        </div>
+        
+        <!-- 3D CSS Cube -->
+        <div class="hero-visual fade-in">
+            <div class="scene">
+                <div class="cube">
+                    <div class="cube-face front"></div>
+                    <div class="cube-face back"></div>
+                    <div class="cube-face right"></div>
+                    <div class="cube-face left"></div>
+                    <div class="cube-face top"></div>
+                    <div class="cube-face bottom"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section with Photo -->
+    <section id="about" class="section fade-in">
+        <div class="section-header">
+            <h2>01. Background</h2>
+            <div class="line"></div>
+        </div>
+        
+        <div class="about-content">
+            <!-- Photo Placeholder -->
+            <div class="photo-container">
+                <!-- Replace the src URL with the path to your actual photo -->
+                <img src="https://via.placeholder.com/300" alt="Profile Photo" class="profile-img">
+            </div>
+            
+            <p class="about-text">
+                I bridge the gap between physical hardware and digital environments. Whether I am configuring background Python scripts for seamless automation, prototyping AR optical waveguide modules, or optimizing Unity workflows for development teams, I focus on building efficient, secure, and highly technical solutions without unnecessary bloat.
+            </p>
+        </div>
+    </section>
+
+    <!-- Expanded Skills Section -->
+    <section id="skills" class="section fade-in">
+        <div class="section-header">
+            <h2>02. Tech Stack</h2>
+            <div class="line"></div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>C / C++</li>
+                    <li>C#</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Cloud & Architecture</h3>
+                <ul>
+                    <li>AWS</li>
+                    <li>Test-Driven Dev (TDD)</li>
+                    <li>Linux Environments</li>
+                    <li>Git / Version Control</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Hardware & IoT</h3>
+                <ul>
+                    <li>ESP32 Microcontrollers</li>
+                    <li>Bluetooth HID Integration</li>
+                    <li>AR Optical Modules</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Automation</h3>
+                <ul>
+                    <li>Unity Engine</li>
+                    <li>Shell Automation</li>
+                    <li>Docker / Containers</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-header fade-in">
+            <h2>03. Core Projects</h2>
+            <div class="line"></div>
+        </div>
+        <div class="project-list">
+            
+            <article class="project-card fade-in">
+                <div class="project-info">
+                    <p class="mono-accent">Hardware / Python</p>
+                    <h3>Rubik's Cube Bluetooth HID</h3>
+                    <p>Designed a comprehensive key-mapping system to convert a physical Rubik's cube into a fully functional Bluetooth keyboard. Engineered custom slot assignments for alphabets, symbols, and macros to optimize developer workflow.</p>
+                </div>
+            </article>
+
+            <article class="project-card fade-in">
+                <div class="project-info">
+                    <p class="mono-accent">IoT / ESP32</p>
+                    <h3>Local Edge Inventory System</h3>
+                    <p>Architected a serverless local shop inventory system running natively on an ESP32 microcontroller. Designed to interface securely with tablet applications for real-time sales and purchase data storage without external cloud dependencies.</p>
+                </div>
+            </article>
+
+            <article class="project-card fade-in">
+                <div class="project-info">
+                    <p class="mono-accent">C# / Unity / Git</p>
+                    <h3>Collaborative Engine Architecture</h3>
+                    <p>Established and managed the complete version control workflow and Unity repository architecture for a 5-person development team, ensuring zero-conflict merges and synchronized game state environments.</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="section fade-in">
+        <h2>04. Initialize Connection</h2>
+        <p>Currently open for new technical challenges and collaborative builds.</p>
+        <a href="mailto:abhay03124@gmail.com" class="btn outline-btn">Execute Email</a>
+        
+        <!-- Mobile Tech Links -->
+        <div class="mobile-tech-links">
+            <a href="https://github.com/abhay03124" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/abhay03124" target="_blank">LinkedIn</a>
+            <a href="https://devpost.com/abhay03124" target="_blank">Devpost</a>
+        </div>
+
+        <div class="terminal-footer">
+            <p>> Built by Abhay Haswani.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
